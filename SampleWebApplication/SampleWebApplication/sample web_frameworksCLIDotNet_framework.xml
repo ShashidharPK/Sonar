@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameworkInput type="DotNet" xmlns="http://www.ibm.com/FrameworkInput">
+	<WaflFile>C:\SampleWebApplication\SampleWebApplication\sample web_frameworksCLIDotNet.wafl</WaflFile>
+	<LogConfig>C:\SampleWebApplication\SampleWebApplication\sample web_frameworksCLIDotNet_waflLogConfig.xml</LogConfig>
+	<HandlerJarDir>C:\Program Files (x86)\IBM\AppScanSource\waflgens</HandlerJarDir>
+	<ProjectFile>C:\SampleWebApplication\SampleWebApplication\sample web.ppf</ProjectFile>
+	<DotNetInfo>
+		<WalaScopeFile>C:\ProgramData\IBM\AppScanSource\temp\sample web.scope</WalaScopeFile>
+		<Options>
+			<Property name="aspnet.precompile.dir" value="C:\SampleWebApplication\SampleWebApplication"></Property>
+			<Property name="application.file" value="C:\SampleWebApplication\SampleWebApplication\Sample Project.paf"></Property>
+			<Property name="project.configuration" value="Configuration 1"></Property>
+		</Options>
+	</DotNetInfo>
+</FrameworkInput>
